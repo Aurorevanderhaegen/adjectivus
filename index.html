@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="fr">
+ <head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260918-05-13efa67","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YACgEZulLoA,0","Arial Narrow":"YAGyDvJ_4Ts,0","Arial Rounded MT Bold":"YAFcfoaHu-s,0","Arial":"YAGyDvJ_4Ts,0","Avenir Next":"YAFcfmNq6UY,0","Baloo 2":"YADK30bC6HQ,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAFcfvtOAUY,1","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHQutsX00Q,0","Hanken Grotesk":"YAFcfhwp99E,0","Helvetica Neue":"YAFcf6CtJfI,0","Helvetica":"YAFcf6CtJfI,0","IBM Plex Mono":"YAFdJkmvhGI,0","Impact":"YAFcfnjI7Vk,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YADK3zbC6RM,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Pacifico":"YADLjORQ1u4,0","Phantom Sans":"YAFdJvgJ5TU,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAGvf3_u0_Q,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Source Serif 4":"YACgEfdj394,0","Space Grotesk":"YADZ-dYEmhg,0","Space Mono":"YADW1-vpsoc,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","UV Display":"YAEdVfSSpYo,0","UV Sans":"YAFdJvgJ5TU,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YAD1aFjegN8,0","ui-sans-serif":"YACkoD1yZN0,0"}}');</script><script src="/_sdk/83d6dfdadcd4750a.telemetry_sdk.js" integrity="sha512-XS4Dvzp6vbagZS9vFErihvr8aO3S0tH78KWUefn06fmL4WYqryBtZj/IOLITYj7dFA4gPVvPg1W/JB1DK3uLNQ=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adjectivus: Match &amp; Accord</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Faustina:ital,wght@0,400;0,600;1,400&display=swap');
+
+    :root {
+      --roman-purple: #3B112C;
+      --imperial-red: #8B0000;
+      --gold: #D4AF37;
+      --gold-light: #F3E5AB;
+      --marble: #F5F2EB;
+      --marble-dark: #E2DACD;
+      --green: #27AE60;
+      --red: #C0392B;
+      --text: #2C221E;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #110B0E;
+      background-image: 
+        radial-gradient(circle at 50% 30%, rgba(212, 175, 55, 0.15) 0%, transparent 70%),
+        linear-gradient(to bottom, #110B0E, #22121B);
+      color: var(--text);
+      font-family: 'Faustina', serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: calc(100 * min(var(--vh, 1vh), 1vh));
+      padding: 15px;
+    }
+
+    .app-container {
+      width: 100%;
+      max-width: 440px;
+      min-height: 720px;
+      background-color: var(--marble);
+      border-radius: 16px;
+      box-shadow: 0 0 35px rgba(212, 175, 55, 0.25), 0 15px 35px rgba(0,0,0,0.6);
+      border: 4px solid var(--gold);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .app-container::before {
+      content: "";
+      position: absolute;
+      top: 6px; left: 6px; right: 6px; bottom: 6px;
+      border: 1px solid var(--gold);
+      border-radius: 10px;
+      pointer-events: none;
+      z-index: 10;
+    }
+
+    h1, h2, .roman-title {
+      font-family: 'Cinzel', serif;
+      text-align: center;
+      color: var(--roman-purple);
+      letter-spacing: 1.5px;
+    }
+
+    #welcome-screen {
+      padding: 40px 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      text-align: center;
+      z-index: 20;
+      background: radial-gradient(circle, var(--marble) 60%, var(--marble-dark) 100%);
+    }
+
+    .laurel-icon {
+      font-size: 3rem;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    .welcome-title {
+      font-size: 1.8rem;
+      font-weight: 900;
+      color: var(--imperial-red);
+      margin-bottom: 5px;
+      text-shadow: 1px 1px 0px var(--gold-light);
+    }
+
+    .welcome-subtitle {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 30px;
+      font-size: 1.05rem;
+    }
+
+    .input-group {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+
+    .input-group label {
+      display: block;
+      font-family: 'Cinzel', serif;
+      font-size: 0.9rem;
+      color: var(--roman-purple);
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 14px;
+      border: 2px solid var(--gold);
+      border-radius: 8px;
+      background-color: #FFF;
+      font-family: 'Faustina', serif;
+      font-size: 1.1rem;
+      text-align: center;
+      color: var(--roman-purple);
+      outline: none;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .start-btn {
+      background: linear-gradient(135deg, var(--imperial-red) 0%, var(--roman-purple) 100%);
+      color: var(--gold-light);
+      border: 2px solid var(--gold);
+      padding: 14px 35px;
+      border-radius: 8px;
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: all 0.2s;
+    }
+
+    .start-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+    }
+
+    #game-screen {
+      display: none;
+      flex-direction: column;
+      flex: 1;
+      z-index: 20;
+    }
+
+    .header {
+      background: linear-gradient(180deg, var(--roman-purple) 0%, #220A1A 100%);
+      color: var(--gold-light);
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 3px solid var(--gold);
+      font-family: 'Cinzel', serif;
+      font-size: 0.9rem;
+    }
+
+    .player-name {
+      color: #FFF;
+      font-weight: bold;
+    }
+
+    .progress-bar {
+      height: 6px;
+      background-color: rgba(0,0,0,0.4);
+      width: 100%;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--gold) 0%, #FFF 100%);
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+
+    .target-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background: radial-gradient(circle at center, #FFF 0%, var(--marble-dark) 100%);
+      text-align: center;
+      position: relative;
+    }
+
+    .target-section::before {
+      content: "🏛️";
+      position: absolute;
+      font-size: 9rem;
+      opacity: 0.04;
+      pointer-events: none;
+    }
+
+    .noun-card {
+      background: #FFF;
+      border: 2px solid var(--gold);
+      padding: 15px 25px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      margin-bottom: 12px;
+      width: 90%;
+    }
+
+    .noun-card .word {
+      font-family: 'Cinzel', serif;
+      font-size: 2.1rem;
+      font-weight: 900;
+      color: var(--imperial-red);
+      letter-spacing: 2px;
+    }
+
+    .noun-card .translation {
+      font-size: 1rem;
+      color: #666;
+      font-style: italic;
+    }
+
+    .tags {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+
+    .tag {
+      background-color: var(--roman-purple);
+      color: var(--gold-light);
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-family: 'Cinzel', serif;
+      font-size: 0.75rem;
+      border: 1px solid var(--gold);
+    }
+
+    .lemma-box {
+      font-size: 0.95rem;
+      color: var(--roman-purple);
+      background: rgba(212, 175, 55, 0.15);
+      padding: 6px 12px;
+      border-radius: 6px;
+      border: 1px dashed var(--gold);
+    }
+
+    .lemma-box strong {
+      font-family: 'Cinzel', serif;
+    }
+
+    .choices-section {
+      padding: 15px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background-color: var(--marble);
+    }
+
+    .option-btn {
+      width: 100%;
+      padding: 14px;
+      border: 2px solid var(--gold);
+      background-color: #FFF;
+      border-radius: 8px;
+      font-family: 'Cinzel', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--roman-purple);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .option-btn:hover {
+      background-color: var(--gold-light);
+      border-color: var(--imperial-red);
+    }
+
+    .option-btn.correct {
+      background-color: var(--green) !important;
+      color: #FFF !important;
+      border-color: #1E8449 !important;
+    }
+
+    .option-btn.incorrect {
+      background-color: var(--red) !important;
+      color: #FFF !important;
+      border-color: #922B21 !important;
+    }
+
+    .footer {
+      padding: 12px 20px;
+      background: var(--marble-dark);
+      border-top: 2px solid var(--gold);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 60px;
+    }
+
+    .feedback {
+      font-size: 0.95rem;
+      font-weight: bold;
+    }
+
+    .next-btn {
+      background: linear-gradient(135deg, var(--gold) 0%, #B38F2D 100%);
+      color: var(--roman-purple);
+      border: 1px solid #FFF;
+      padding: 8px 18px;
+      border-radius: 6px;
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      cursor: pointer;
+      display: none;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .end-card {
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="/_sdk/8de366929c5f3b48.data_sdk.js" type="text/javascript" integrity="sha512-TyQ8k8cZj66xe/aENmn6RyZpdOFZXbAo5+KBG3PeFM+Q4qMTHU8xAqmq4ADClNfPrstgQYV6OzZHwLTnElzB2g=="></script>
+  <script src="/_sdk/0ddbbee1c66b1212.editing_sdk.js" type="text/javascript" integrity="sha512-HQn5LM1yruQSbY78ATUril6QeOJ9xj7KqO64ltLtb4vBwI5Qv3/tloFFOndBPZTNZoeV5xKzuth5y6FTi9crsg=="></script>
+  <script src="/_sdk/765e1fea0cec97ce.resizing_sdk.js" type="text/javascript" integrity="sha512-IRTJnqww0+HQ5V/LlWEQrlD5SrYHaVvaeVoNe8HYQXoaguzUGheSd9+n9s6WOgaTcEH0g37DuINHZ9aqfzWjlw=="></script>
+ </head>
+ <body data-template-id="__page-root">
+  <div class="app-container" data-template-id="app-container">
+   <!-- ÉCRAN D'ACCUEIL -->
+   <div id="welcome-screen" data-template-id="welcome-screen" class="canva-section">
+    <div class="laurel-icon">
+     🏛️
+    </div>
+    <h1 class="welcome-title" data-template-id="welcome-title"></h1>
+    <p class="welcome-subtitle canva-text" data-template-id="welcome-subtitle"></p>
+    <div class="input-group">
+     <label for="player-input" data-template-id="input-label" class="canva-text"></label> <input type="text" id="player-input" data-template-id="player-input" class="canva-input" maxlength="15">
+    </div><button type="button" class="start-btn canva-button" data-template-id="start-btn" onclick="startGame()"></button>
+   </div><!-- ÉCRAN DE JEU -->
+   <div id="game-screen">
+    <div class="header" data-template-id="game-header">
+     <span data-template-id="ave-label" class="canva-text">AVE, <span class="player-name" id="display-name">MARCUS</span></span> <span>SPQR: <span id="score">0</span></span> <span><span id="step">1</span>/20</span>
+    </div>
+    <div class="progress-bar">
+     <div class="progress-fill" id="progress"></div>
+    </div>
+    <div class="target-section" data-template-id="target-section">
+     <div class="noun-card" data-template-id="noun-card">
+      <div class="word" id="noun-word">
+       PUERIS
+      </div>
+      <div class="translation" id="noun-trans">
+       (aux garçons)
+      </div>
+     </div>
+     <div class="tags">
+      <span class="tag" id="tag-gender" data-template-id="tag-gender">MASC</span> <span class="tag" id="tag-case" data-template-id="tag-case">DATIF</span> <span class="tag" id="tag-number" data-template-id="tag-number">PLURIEL</span>
+     </div>
+     <div class="lemma-box" data-template-id="lemma-box">
+      Adjectif à accorder : <br><strong id="lemma-display">bonus, bona, bonum (bon)</strong>
+     </div>
+    </div>
+    <div class="choices-section" id="options-container" data-template-id="choices-section">
+    </div>
+    <div class="footer" data-template-id="game-footer">
+     <div class="feedback" id="feedback-text" data-template-id="feedback-text"></div><button type="button" class="next-btn canva-button" id="next-btn" data-template-id="next-btn" onclick="nextQuestion()"></button>
+    </div>
+   </div>
+  </div>
+  <script>
+  let playerName = "Discipulus";
+
+  const questions = [
+    {
+      noun: "PUERIS", trans: "aux garçons", gender: "Masculin", case: "Datif", number: "Pluriel",
+      lemma: "bonus, bona, bonum", mean: "bon",
+      options: ["bonis", "bonus", "bonae"], answer: 0
+    },
+    {
+      noun: "PUELLAM", trans: "la jeune fille", gender: "Féminin", case: "Accusatif", number: "Singulier",
+      lemma: "pulcher, pulchra, pulchrum", mean: "beau",
+      options: ["pulchrae", "pulchram", "pulchros"], answer: 1
+    },
+    {
+      noun: "TEMPLA", trans: "les temples", gender: "Neutre", case: "Nominatif", number: "Pluriel",
+      lemma: "magnus, magna, magnum", mean: "grand",
+      options: ["magnos", "magna", "magnis"], answer: 1
+    },
+    {
+      noun: "DONO", trans: "par le don", gender: "Neutre", case: "Ablatif", number: "Singulier",
+      lemma: "parvus, parva, parvum", mean: "petit",
+      options: ["parvam", "parvo", "parva"], answer: 1
+    },
+    {
+      noun: "DOMINOS", trans: "les maîtres", gender: "Masculin", case: "Accusatif", number: "Pluriel",
+      lemma: "malus, mala, malum", mean: "mauvais",
+      options: ["malos", "mali", "malis"], answer: 0
+    },
+    {
+      noun: "SILVA", trans: "de la forêt", gender: "Féminin", case: "Génitif", number: "Singulier",
+      lemma: "altus, alta, altum", mean: "haute, profonde",
+      options: ["altae", "altam", "altas"], answer: 0
+    },
+    {
+      noun: "POETAE", trans: "les poètes", gender: "Masculin", case: "Nominatif", number: "Pluriel",
+      lemma: "miser, misera, miserum", mean: "malheureux",
+      options: ["miseri", "miserae", "miseros"], answer: 0
+    },
+    {
+      noun: "VERBA", trans: "les paroles", gender: "Neutre", case: "Accusatif", number: "Pluriel",
+      lemma: "novus, nova, novum", mean: "nouveau",
+      options: ["novos", "nova", "novis"], answer: 1
+    },
+    {
+      noun: "VIA", trans: "par la voie", gender: "Féminin", case: "Ablatif", number: "Singulier",
+      lemma: "longus, longa, longum", mean: "longue",
+      options: ["longam", "longa", "longae"], answer: 1
+    },
+    {
+      noun: "AMICORUM", trans: "des amis", gender: "Masculin", case: "Génitif", number: "Pluriel",
+      lemma: "multus, multa, multum", mean: "nombreux",
+      options: ["multis", "multos", "multorum"], answer: 2
+    },
+    {
+      noun: "MILITEM", trans: "le soldat", gender: "Masculin", case: "Accusatif", number: "Singulier",
+      lemma: "fortis, fortis, forte", mean: "courageux",
+      options: ["fortem", "fortis", "forte"], answer: 0
+    },
+    {
+      noun: "URBIUM", trans: "des villes", gender: "Féminin", case: "Génitif", number: "Pluriel",
+      lemma: "omnis, omnis, omne", mean: "tout",
+      options: ["omnium", "omnes", "omnis"], answer: 0
+    },
+    {
+      noun: "REGES", trans: "les rois", gender: "Masculin", case: "Nominatif", number: "Pluriel",
+      lemma: "gravis, gravis, grave", mean: "lourd, grave",
+      options: ["graves", "gravis", "grave"], answer: 0
+    },
+    {
+      noun: "SPECULO", trans: "dans le miroir", gender: "Neutre", case: "Ablatif", number: "Singulier",
+      lemma: "utilis, utilis, utile", mean: "utile",
+      options: ["utili", "utile", "utilis"], answer: 0
+    },
+    {
+      noun: "VITA", trans: "la vie", gender: "Féminin", case: "Nominatif", number: "Singulier",
+      lemma: "brevis, brevis, breve", mean: "courte",
+      options: ["brevis", "breve", "brevem"], answer: 0
+    },
+    {
+      noun: "OPUS", trans: "l'œuvre", gender: "Neutre", case: "Nominatif", number: "Singulier",
+      lemma: "facilis, facilis, facile", mean: "facile",
+      options: ["facilis", "facile", "facilem"], answer: 1
+    },
+    {
+      noun: "LABORIBUS", trans: "aux travaux", gender: "Masculin", case: "Datif", number: "Pluriel",
+      lemma: "difficilis, difficilis, difficile", mean: "difficile",
+      options: ["difficilior", "difficilibus", "difficiles"], answer: 1
+    },
+    {
+      noun: "CARMINA", trans: "les poèmes", gender: "Neutre", case: "Accusatif", number: "Pluriel",
+      lemma: "dulcis, dulcis, dulce", mean: "doux, agréable",
+      options: ["dulces", "dulcia", "dulcium"], answer: 1
+    },
+    {
+      noun: "ONUS", trans: "la charge", gender: "Neutre", case: "Nominatif", number: "Singulier",
+      lemma: "levis, levis, leve", mean: "légère",
+      options: ["levis", "leve", "levem"], answer: 1
+    },
+    {
+      noun: "MATRIBUS", trans: "aux mères", gender: "Féminin", case: "Datif", number: "Pluriel",
+      lemma: "similis, similis, simile", mean: "semblable",
+      options: ["similes", "similibus", "simili"], answer: 1
+    }
+  ];
+
+  let currentStep = 0;
+  let score = 0;
+  let canAnswer = true;
+
+  function startGame() {
+    const input = document.getElementById("player-input").value.trim();
+    if (input !== "") {
+      playerName = input.toUpperCase();
+    } else {
+      playerName = "MARCUS";
+    }
+    
+    document.getElementById("display-name").innerText = playerName;
+    document.getElementById("welcome-screen").style.display = "none";
+    document.getElementById("game-screen").style.display = "flex";
+    
+    loadQuestion();
+  }
+
+  function loadQuestion() {
+    canAnswer = true;
+    const q = questions[currentStep];
+    
+    document.getElementById("step").innerText = currentStep + 1;
+    document.getElementById("progress").style.width = ((currentStep) / questions.length) * 100 + "%";
+    document.getElementById("noun-word").innerText = q.noun;
+    document.getElementById("noun-trans").innerText = `(${q.trans})`;
+    document.getElementById("tag-gender").innerText = q.gender.toUpperCase();
+    document.getElementById("tag-case").innerText = q.case.toUpperCase();
+    document.getElementById("tag-number").innerText = q.number.toUpperCase();
+
+    document.getElementById("lemma-display").innerText = `${q.lemma} (${q.mean})`;
+
+    document.getElementById("feedback-text").innerText = "Choisis le bon accord :";
+    document.getElementById("feedback-text").style.color = "var(--text)";
+    document.getElementById("next-btn").style.display = "none";
+
+    const optionsContainer = document.getElementById("options-container");
+    optionsContainer.innerHTML = "";
+
+    q.options.forEach((opt, index) => {
+      const btn = document.createElement("button");
+      btn.className = "option-btn";
+      btn.innerText = opt;
+      btn.onclick = () => checkAnswer(index, btn);
+      optionsContainer.appendChild(btn);
+    });
+  }
+
+  function checkAnswer(selectedIndex, btn) {
+    if (!canAnswer) return;
+    canAnswer = false;
+
+    const q = questions[currentStep];
+    const buttons = document.querySelectorAll(".option-btn");
+
+    if (selectedIndex === q.answer) {
+      btn.classList.add("correct");
+      score += 100;
+      document.getElementById("score").innerText = score;
+      document.getElementById("feedback-text").innerText = "Optime ! Correct.";
+      document.getElementById("feedback-text").style.color = "var(--green)";
+    } else {
+      btn.classList.add("incorrect");
+      buttons[q.answer].classList.add("correct");
+      document.getElementById("feedback-text").innerText = "Erreur d'accord !";
+      document.getElementById("feedback-text").style.color = "var(--red)";
+    }
+
+    document.getElementById("next-btn").style.display = "block";
+  }
+
+  function nextQuestion() {
+    if (canAnswer) return;
+    currentStep += 1;
+
+    if (currentStep < questions.length) {
+      loadQuestion();
+      document.querySelector(".target-section").scrollTop = 0;
+      return;
+    }
+
+    document.getElementById("progress").style.width = "100%";
+    document.querySelector(".target-section").innerHTML = `
+      <div class="end-card">
+        <div style="font-size:3rem; margin-bottom:10px;">🏛️ 👑</div>
+        <h2>GLORIA, ${playerName} !</h2>
+        <p style="margin-top:15px; font-size:1.2rem;">Tu as terminé les 20 épreuves.</p>
+        <p style="margin-top:10px; font-size:1.4rem; color:var(--imperial-red);">Score final : <strong>${score} / 2000 SPQR</strong></p>
+      </div>
+    `;
+    document.getElementById("options-container").innerHTML = "";
+    document.getElementById("next-btn").style.display = "none";
+    document.getElementById("feedback-text").innerText = "Félicitations pour tes révisions !";
+  }
+</script>
+ </body>
+</html>
